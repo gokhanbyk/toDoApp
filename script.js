@@ -19,7 +19,11 @@ function toDo() {
     console.log(li)
 
     const p = document.createElement('p')
+    p.classList.add('mt-3')
+    p.innerHTML = input.value.trim()
 
 
+    const iconDiv = document.createElement('div')
+    iconDiv.setAttribute('class', 'd-flex gap-3')
 
 }
